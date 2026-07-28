@@ -4,7 +4,14 @@
 
 ### Opening the MLLM Black Box for Forgery Detection
 
-[![ECCV 2026](https://img.shields.io/badge/ECCV-2026-6A5ACD.svg)](#citation)&#8288;&nbsp;&#8288;[![Python 3.10](https://img.shields.io/badge/Python-3.10-3776AB.svg?logo=python&logoColor=white)](#installation)&#8288;&nbsp;&#8288;[![PyTorch 1.13](https://img.shields.io/badge/PyTorch-1.13-EE4C2C.svg?logo=pytorch&logoColor=white)](#installation)&#8288;&nbsp;&#8288;[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+<table align="center">
+  <tr>
+    <td><a href="#citation"><img src="https://img.shields.io/badge/ECCV-2026-6A5ACD.svg" alt="ECCV 2026"></a></td>
+    <td><a href="#installation"><img src="https://img.shields.io/badge/Python-3.10-3776AB.svg?logo=python&amp;logoColor=white" alt="Python 3.10"></a></td>
+    <td><a href="#installation"><img src="https://img.shields.io/badge/PyTorch-1.13-EE4C2C.svg?logo=pytorch&amp;logoColor=white" alt="PyTorch 1.13"></a></td>
+    <td><a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a></td>
+  </tr>
+</table>
 
 Official implementation of **Asymmetric Anchoring: Opening the MLLM Black Box
 for Forgery Detection**.
