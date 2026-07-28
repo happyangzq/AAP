@@ -30,10 +30,7 @@ model by treating its frozen visual encoder as a **truth anchor**.
 The optimization objective is
 
 $$
-\mathcal{L}
-= \mathcal{L}_{\mathrm{cls}}
-+ \mathcal{L}_{\mathrm{seg}}
-+ 3\mathcal{L}_{\mathrm{ARL}}.
+\mathcal{L} = \mathcal{L}_{\mathrm{cls}} + \mathcal{L}_{\mathrm{seg}} + 3\mathcal{L}_{\mathrm{ARL}}.
 $$
 
 This repository intentionally contains only the core training and evaluation
