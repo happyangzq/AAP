@@ -1,0 +1,14 @@
+AAP
+Copyright 2026 AAP authors
+
+This distribution contains code adapted from:
+
+- LISA: Reasoning Segmentation via Large Language Model
+  https://github.com/JIA-Lab-research/LISA
+- LLaVA: Visual Instruction Tuning
+  https://github.com/haotian-liu/LLaVA
+- Segment Anything
+  https://github.com/facebookresearch/segment-anything
+
+Those components retain their original copyright notices and are distributed
+under the Apache License 2.0.

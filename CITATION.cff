@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Asymmetric Anchoring: Opening the MLLM Black Box for Forgery Detection"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Zhiqiang
+  - family-names: Tao
+    given-names: Renshuai
+  - family-names: Zhang
+    given-names: Chunjie
+  - family-names: Liu
+    given-names: Zhaoxiang
+  - family-names: Zheng
+    given-names: Xiaolong
+  - family-names: Zhao
+    given-names: Yao
+repository-code: "https://github.com/happyangzq/AAP"
+license: Apache-2.0
