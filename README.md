@@ -4,7 +4,7 @@
 
 ### Opening the MLLM Black Box for Forgery Detection
 
-<nobr>[![ECCV 2026](https://img.shields.io/badge/ECCV-2026-6A5ACD.svg)](#citation)&nbsp;[![Python 3.10](https://img.shields.io/badge/Python-3.10-3776AB.svg?logo=python&logoColor=white)](#installation)&nbsp;[![PyTorch 1.13](https://img.shields.io/badge/PyTorch-1.13-EE4C2C.svg?logo=pytorch&logoColor=white)](#installation)&nbsp;[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)</nobr>
+[![ECCV 2026](https://img.shields.io/badge/ECCV-2026-6A5ACD.svg)](#citation)&#8288;&nbsp;&#8288;[![Python 3.10](https://img.shields.io/badge/Python-3.10-3776AB.svg?logo=python&logoColor=white)](#installation)&#8288;&nbsp;&#8288;[![PyTorch 1.13](https://img.shields.io/badge/PyTorch-1.13-EE4C2C.svg?logo=pytorch&logoColor=white)](#installation)&#8288;&nbsp;&#8288;[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 
 Official implementation of **Asymmetric Anchoring: Opening the MLLM Black Box
 for Forgery Detection**.
