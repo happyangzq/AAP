@@ -16,22 +16,8 @@ for Forgery Detection**.
 
 ## Overview
 
-AAP exposes the forensic signals hidden inside a multimodal large language
-model by treating its frozen visual encoder as a **truth anchor**.
-
-- **Anchor real images.** The Anchoring Representation Loss (ARL) minimizes
-  patch-wise cosine distance between intermediate MLLM features and
-  penultimate visual-encoder features.
-- **Preserve forgery discrepancies.** Tampered images are excluded from ARL,
-  allowing their representation errors to remain visible.
-- **Localize manipulations.** Patch-wise errors form a spatial discrepancy map,
-  which is projected into the dense prompt space of the segmentation model.
-
-The optimization objective is
-
-$$
-\mathcal{L} = \mathcal{L}_{\mathrm{cls}} + \mathcal{L}_{\mathrm{seg}} + 3\mathcal{L}_{\mathrm{ARL}}.
-$$
+AAP is a unified framework for image forgery detection and localization using
+the forensic signals hidden inside a multimodal large language model.
 
 This repository intentionally contains only the core training and evaluation
 path. Datasets, checkpoints, experiment backups, logs, plots, and internal
@@ -143,10 +129,10 @@ python -m pytest tests
 
 ## Acknowledgements
 
-We sincerely thank the authors of **SIDA: Social Media Image Deepfake
-Detection, Localization and Explanation with Large Multimodal Model** for
-their inspiring work. If this repository is useful to your research, please
-also consider citing:
+We sincerely thank the authors of SIDA: Social Media Image Deepfake Detection,
+Localization and Explanation with Large Multimodal Model for their inspiring
+work. If this repository is useful to your research, please also consider
+citing:
 
 ```bibtex
 @inproceedings{DBLP:conf/cvpr/HuangHLH00W0C25,
